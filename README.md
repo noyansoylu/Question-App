@@ -1,8 +1,16 @@
-# React + Vite
+# Question App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## About the Project
+The **Question App** is a test application project created for a task included in Patika+ Front-End Web Development Bootcamp.
 
-Currently, two official plugins are available:
+## Showcase
+[Click here to see it live](https://euphonious-cat-15c8e7.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Built With
+- **Frontend Framework**: React (using Vite for setup)
+- **Styling**: Bootstrap 5 and custom CSS
+- **Deployment**: Netlify 
+
+### Prerequisites  
+- Web browser (Chrome, Firefox, Edge, etc.)  
+- Code editor (VS Code, Sublime Text, etc.)  
