@@ -11,10 +11,8 @@ const QuizScreen = ({ questions, onFinish }) => {
   // 30 seconds are given to click answer and move to the next question
   // Works for each index of the questions array
   useEffect(() => {
-    // Information!
-    // Normally the option delay time is 4 seconds and the question's total time set to 30 seconds but for quick testing, I set them to 1 second and 10 seconds respectively.
-    const optionsTimer = setTimeout(() => setShowOptions(true), 1000);
-    const questionTimer = setTimeout(() => handleNextQuestion(null), 10000);
+    const optionsTimer = setTimeout(() => setShowOptions(true), 4000);
+    const questionTimer = setTimeout(() => handleNextQuestion(null), 30000);
     const countdownTimer = setInterval(() => {
       setTimeLeft((prev) => (prev > 0 ? prev - 1 : 0));
     }, 1000);
